@@ -1,2 +1,4 @@
+import main
+
 def test_sub():
-    assert 1/1 == 2
+    assert main.sub(1,1) == 1
